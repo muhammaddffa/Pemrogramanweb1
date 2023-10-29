@@ -78,7 +78,7 @@ body {
 }
 
 .sideNav li:hover a {
-    transform: translateY(0.15em);
+    transform: translateX(0.15em);
 }
 
 .sideNav ul li a {
@@ -113,7 +113,9 @@ body {
 }
 
 .hero-section .hero-container img {
-    width: 1500px;
+    width: 500px;
+    height: 600px;
+
 }
 
 .judul{
@@ -174,9 +176,11 @@ body {
     flex-direction: column;
     justify-content: center;
     color: #1d2434;
+    align-items: center;
+    font: bold;
 }
 
-.my-skill h2 {
+.my-skill ul li {
     padding-bottom: 25px;
     font-size: 2em;
 }
@@ -184,6 +188,37 @@ body {
 .my-skill p {
     text-align: justify;
 }
+
+.resume-tgs{
+    background-color: #f8fafc;
+    padding: 5em 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1d2434;
+    align-items: center;
+    font: bold;
+}
+
+.resume-tgs ul li {
+    padding-bottom: 25px;
+    font-size: 2em;
+}
+
+.resume-tgs p {
+    text-align: justify;
+}
+.resume-tgs a{
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.resume-tgs a button:hover{
+    text-align: justify;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 #contact {
     display: flex;
